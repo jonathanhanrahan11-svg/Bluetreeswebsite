@@ -767,12 +767,6 @@ a.review-platform-head:hover strong { color: var(--blue-light); }
   color: var(--gray-100);
 }
 .cert-pill svg { width: 18px; height: 18px; color: var(--blue-light); }
-.cert-pill-placeholder {
-  border-style: dashed;
-  color: var(--gray-500);
-  background: transparent;
-}
-.cert-pill-placeholder svg { color: var(--gray-500); }
 
 /* ---------------- CTA banner ---------------- */
 .cta-banner {

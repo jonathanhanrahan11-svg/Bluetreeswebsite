@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+  Style guide preview template.
+  1. Generate tokens.css first (node generate_palette.js).
+  2. Save this file as style-guide.html next to tokens.css — no edits needed unless
+     you want to change the sample copy below to match the real business.
+  3. Open it in a browser, or screenshot it (Chrome MCP / Playwright, see SKILL.md)
+     to visually sanity-check the system before wiring it into the real project.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Style Guide Preview</title>
+<link rel="stylesheet" href="tokens.css">
+<style>
+  .sg-section { max-width: 900px; margin: 0 auto; padding: var(--space-7) var(--space-5); }
+  .sg-swatches { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-7); }
+  .sg-swatch { border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
+  .sg-swatch-color { height: 70px; }
+  .sg-swatch-label { padding: var(--space-2) var(--space-3); font-size: 0.78rem; background: var(--color-surface-alt); }
+  .sg-swatch-label code { display: block; color: var(--color-text-muted); }
+  .sg-row { display: flex; gap: var(--space-3); flex-wrap: wrap; margin-bottom: var(--space-6); align-items: center; }
+  .sg-type-sample { margin-bottom: var(--space-3); }
+  .sg-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--color-text-muted); margin-bottom: var(--space-3); }
+</style>
+</head>
+<body>
+  <div class="sg-section">
+    <h1>Style Guide Preview</h1>
+    <p style="color: var(--color-text-muted); margin-bottom: var(--space-7);">Generated design tokens — sanity-check contrast, spacing, and overall feel here before wiring into the real project.</p>
+
+    <div class="sg-label">Colors</div>
+    <div class="sg-swatches">
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-surface)"></div><div class="sg-swatch-label">surface<code>--color-surface</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-surface-alt)"></div><div class="sg-swatch-label">surface-alt<code>--color-surface-alt</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-primary)"></div><div class="sg-swatch-label">primary<code>--color-primary</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-primary-dark)"></div><div class="sg-swatch-label">primary-dark<code>--color-primary-dark</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-accent)"></div><div class="sg-swatch-label">accent<code>--color-accent</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-text)"></div><div class="sg-swatch-label">text<code>--color-text</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-text-muted)"></div><div class="sg-swatch-label">text-muted<code>--color-text-muted</code></div></div>
+      <div class="sg-swatch"><div class="sg-swatch-color" style="background:var(--color-border)"></div><div class="sg-swatch-label">border<code>--color-border</code></div></div>
+    </div>
+
+    <div class="sg-label">Typography</div>
+    <div class="sg-type-sample"><h1>Heading 1 — the quick brown fox</h1></div>
+    <div class="sg-type-sample"><h2>Heading 2 — the quick brown fox</h2></div>
+    <div class="sg-type-sample"><h3>Heading 3 — the quick brown fox</h3></div>
+    <p style="margin-bottom: var(--space-7);">Body copy — the quick brown fox jumps over the lazy dog. This is what regular paragraph text looks like at default size, using the body font token.</p>
+
+    <div class="sg-label">Buttons</div>
+    <div class="sg-row">
+      <button class="btn btn-primary">Primary action</button>
+      <button class="btn btn-accent">Accent action</button>
+      <button class="btn btn-outline">Outline / secondary</button>
+    </div>
+
+    <div class="sg-label">Badges</div>
+    <div class="sg-row">
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-error">Error</span>
+    </div>
+
+    <div class="sg-label">Card</div>
+    <div class="card" style="margin-bottom: var(--space-7); max-width: 360px;">
+      <h3>Sample card title</h3>
+      <p style="color: var(--color-text-muted);">Card body copy showing the surface-alt background, border, and spacing tokens together.</p>
+      <button class="btn btn-primary" style="margin-top: var(--space-3);">Call to action</button>
+    </div>
+
+    <div class="sg-label">Form field</div>
+    <div class="field" style="max-width: 360px;">
+      <label for="sg-input">Sample label</label>
+      <input id="sg-input" type="text" placeholder="Placeholder text">
+    </div>
+  </div>
+</body>
+</html>

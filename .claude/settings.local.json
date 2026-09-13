@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f \"Blue trees website\")",
+      "Bash(mkdir -p css js images)",
+      "WebFetch(domain:www.facebook.com)",
+      "Bash(python3 -m http.server 8765)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/services.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/about.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:8765/gallery.html)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm ls *)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(python3 -c \"import playwright\")",
+      "Read(//private/tmp/**)",
+      "Bash(node --experimental-vm-modules screenshot.mjs)",
+      "Bash(node screenshot.mjs)",
+      "Bash(npm init *)",
+      "Bash(npm install *)"
+    ]
+  }
+}

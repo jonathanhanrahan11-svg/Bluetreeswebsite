@@ -1,0 +1,37 @@
+# Competitor Teardown — Tree Surgery, Essex
+
+**Prepared for:** Blue Trees
+**Competitors reviewed:** Montrose Trees (montrosetrees.co.uk), Crown Tree Services (crowntreeservices.co.uk)
+**Note on method:** Both competitor sites were reviewed from fetched page content (headline messaging, services, testimonials, pricing language, site/page structure) — not rendered or screenshotted, so visual design quality is marked "not assessed" for both rather than guessed. Blue Trees' assessment draws on the full codebase audit already done for this project.
+
+## Montrose Trees
+
+Positioning leans on credibility and polish — "Award-Winning Tree Surgeons in Essex," a video hero, and a genuinely specific quote-integrity promise ("written quotes valid for a minimum of 90 days... we invoice exactly what we put on the quotation") that's more concrete than the generic "free quotes" language most competitors (including Blue Trees) use. Services skew broader than a typical residential tree surgeon — alongside felling, reductions, and hedges, they also offer tree planting, arboricultural consultancy, and Biodiversity Net Gain (BNG) reports for developers, suggesting they chase commercial/land-development work as well as residential. Trust signals exist (Google reviews link, Checkatrade profile link, one embedded testimonial, a mention of Lantra/NPTC accreditation) but are mostly one click away rather than shown directly on the homepage. Site structure spans several distinct pages (services, active tree management, log/woodchip sales, insurance & qualifications, packages, blog & reviews) plus a contact form that asks for postcode up front — a small, smart touch for quoting accuracy. Visual design: not assessed (content-only review); the site credits a third-party agency (DotGO) as builder.
+
+## Crown Tree Services
+
+The strongest of the two competitors on nearly every dimension. Credential badges (TrustMark, SMAS Worksafe, CQMS, NPTC/APTC) are displayed directly on the homepage, not buried on a subpage, alongside repeated mentions of DBS-checked staff — this is the most visible trust signaling of the three sites reviewed, including Blue Trees. Services are split cleanly into Domestic vs. Commercial tabs and go noticeably deeper than either Montrose or Blue Trees: Japanese knotweed management, bamboo removal, habitat creation, ecological surveys, and explicit handling of Tree Preservation Order (TPO) and Conservation Area applications with the Local Authority — a real, specific service neither Montrose's page nor Blue Trees' page mentions. Testimonials are extensive: 18+ named, specific reviews embedded directly on the homepage (double Blue Trees' count). Pricing gets its own dedicated page, referenced repeatedly ("fair tree surgery prices," "fixed cost... no estimates or hidden costs") — the most pricing-transparent of the three, at least in how prominently pricing is signaled (the actual page content wasn't reviewed). Content/SEO structure is the standout: dedicated landing pages for more than a dozen individual towns (Abridge, Basildon, Billericay, Brentwood, Chelmsford, Chigwell, Epping, Hornchurch, Loughton, Ongar, Romford, and others), plus a glossary, FAQ page, blog with dated articles, and an interactive "Recent Jobs" map — a genuinely sophisticated local-SEO setup, not just a brochure site. Visual design: not assessed (content-only review); built by a named agency (Squidgy) on WordPress.
+
+## Blue Trees
+
+Positioning is clear and specific to its audience ("Tree care Essex homeowners actually trust"), and the site's actual construction is clean and modern (verified directly from the codebase, not inferred). Services are narrower than both competitors — six core services, no consultancy, surveys, TPO/Local Authority handling, or land-development-adjacent work. Testimonials are genuinely strong (9 named, specific, real-sounding reviews) but roughly half Crown Tree Services' count, and — unlike either competitor — the certifications/insurance section is currently a visible placeholder rather than real credentials, which is a meaningful visible gap next to two competitors who lead with exactly that. Pricing language is the vaguest of the three ("free, no-obligation quote... usually within one working day") compared to Montrose's specific 90-day quote guarantee and Crown's dedicated pricing page. Content/SEO structure is a single page with no location-specific landing pages, no FAQ, and no blog — Crown Tree Services in particular is well ahead here. Separately from the competitive comparison: the contact form itself isn't yet wired to a working submission endpoint, which is a more urgent issue than anything competitive and should be fixed regardless of positioning.
+
+## Comparison at a glance
+
+| Dimension | Montrose Trees | Crown Tree Services | Blue Trees |
+|---|---|---|---|
+| Positioning | Credibility/polish-led, video hero | Credential-led, emergency-ready | Clear, homeowner-specific |
+| Services breadth | Broad + commercial/BNG | Broadest — incl. TPO/knotweed/ecology | Narrower, residential-only |
+| Trust signals | Reviews linked off-page, 1 embedded testimonial | 18+ testimonials + credential badges on homepage | 9 testimonials, certifications still placeholder |
+| Pricing transparency | Specific quote-integrity promise | Dedicated pricing page, repeatedly referenced | Vaguest of the three |
+| Content/SEO depth | Several pages + blog | Extensive — per-town pages, FAQ, glossary, blog | Single page, no location pages |
+| Visual quality | Not assessed (content-only) | Not assessed (content-only) | Clean/modern (verified from code) |
+| CTAs | Quote form w/ postcode field, 2 phone numbers | "Free quote" repeated, emergency number highlighted | Clear CTAs, but form not yet functional |
+
+## Where the field is weak
+
+None of the three sites show a real, itemized pricing example anywhere a visitor can see without contacting the business — even Crown Tree Services' dedicated pricing page is referenced rather than confirmed to contain actual figures. Real emergency/urgent-callout messaging is inconsistent: Crown Tree Services puts it at the very top of the page: Blue Trees has a 24/7 badge but loses the header phone number on mobile, and Montrose doesn't foreground urgency at all. None of the three visibly show insurance documentation itself (as opposed to just naming a scheme) — all rely on the visitor trusting a badge or a mention.
+
+## How to position against this
+
+Blue Trees' testimonials are genuinely competitive with both rivals in quality, even where behind on count — that's real material worth featuring more prominently rather than downplaying. The clearest, most concrete gap to lead with in a pitch: two direct local competitors already display visible certification/insurance credentials on their homepage, while Blue Trees currently shows a placeholder in that exact spot — this is a specific, visible, closeable gap, not a hypothetical one. Crown Tree Services' network of individual town landing pages is a concrete, replicable local-SEO tactic — worth raising as a future-phase opportunity once the core site issues (the contact form, the placeholder sections) are resolved, rather than a reason to delay. Neither competitor shows real itemized pricing, so a moderate transparency move (a "typical job costs" range, even a rough one) could differentiate Blue Trees without requiring the more involved dedicated pricing page Crown Tree Services has built.

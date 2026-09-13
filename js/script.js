@@ -56,17 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  const form = document.querySelector('.contact-form');
-  if (form) {
-    form.addEventListener('submit', (e) => {
-      if (form.action.includes('YOUR_FORM_ID')) {
-        e.preventDefault();
-        alert("This form isn't connected yet — add your Formspree endpoint in index.html to enable submissions.");
-      }
-      // Once a real Formspree endpoint is set, the form submits normally (no JS needed).
-    });
-  }
-
   document.querySelectorAll('.testimonial-slider').forEach((slider) => {
     const viewport = slider.querySelector('.testimonial-viewport');
     const track = slider.querySelector('.testimonial-track');

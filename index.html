@@ -540,12 +540,11 @@
     <div class="form-card">
       <h3>Send us a message</h3>
       <p class="text-muted" style="margin-bottom: 26px;">Tell us a little about the job. Photos or a short video of the tree/hedge help us quote faster.</p>
-      <!--
-        Formspree setup: replace YOUR_FORM_ID below with your real Formspree endpoint
-        once it's created, e.g. action="https://formspree.io/f/abcdwxyz".
-        method + enctype must stay as-is so file uploads are included.
-      -->
-      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+      <form class="contact-form" name="contact" method="POST" enctype="multipart/form-data" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="position:absolute; left:-9999px;" aria-hidden="true">
+          <label>Leave this field blank: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
         <div class="form-row">
           <div class="field">
             <label for="name">Full Name</label>
